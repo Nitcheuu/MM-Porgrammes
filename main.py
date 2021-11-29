@@ -129,6 +129,8 @@ try:
 except:
     pass
 
+st.write(st.line_chart(pd.DataFrame(stats[-1], columns=objets)))
+
 st.button("Refaire une étude statistiques")
 
 
